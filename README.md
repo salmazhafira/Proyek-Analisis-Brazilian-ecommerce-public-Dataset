@@ -44,5 +44,4 @@ Pastikan berada di direktori yang berisi file `dashboard.py` sebelum menjalankan
 📂 project-folder
 ├── 📄 dashboard.py  # File utama dashboard
 ├── 📄 README.md  # Panduan ini
-├── 📄 all_data.csv  # Data utama
 ```
