@@ -68,8 +68,10 @@ def preprocess_orders(all_df):
     order_trend["month_year"] = order_trend["month_year"].astype(str)
     return order_trend
 
-#meamnggil data
-all_df = pd.read_csv("all_data.csv")
+#memanggil data
+file_id = "1pg5bHTFNdO7EdkWePKhmln8M8glrZFqM"
+url = f"https://drive.google.com/uc?id={file_id}"
+all_df = pd.read_csv(url)
 
 ####Visualisasi Best & Worst Performing Product Categories
 st.markdown("<h3 style='text-align: center;'>Best and Worst Performing Product Categories by Number of Sales</h3>", unsafe_allow_html=True)
